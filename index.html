@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Estee — Expertly Made. Beautifully Conscious.</title>
+  <meta name="description" content="Dr. Estee is a Philippines-rooted, expert-founded beauty brand creating elevated essentials through refined design, globally curated botanicals, and conscious innovation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-mark">DE</div>
+    <div class="loader-line"><span></span></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#top" class="brand-lockup" aria-label="Dr. Estee home">
+      <span class="brand-mark">DE</span>
+      <span class="brand-wordmark">DR. ESTEE</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#about" data-section="about">About</a>
+      <a href="#ingredients" data-section="ingredients">Ingredients</a>
+      <a href="#method" data-section="method">Method</a>
+      <a href="#products" data-section="products">Products</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-observed" id="hero">
+      <img src="assets/hero.jpg" alt="Dr. Estee editorial hero image" class="hero-image" />
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal reveal-delay-1">
+        <p class="eyebrow">Philippines-rooted · Globally curated</p>
+        <h1>Expertly Made.<br>Beautifully Conscious.</h1>
+        <p class="hero-sub">Expert-founded beauty essentials and elevated everyday cosmetics, crafted through globally curated botanicals, modern formulation, and conscious luxury.</p>
+        <div class="hero-actions">
+          <a href="#products" class="button button-solid">Discover the collection</a>
+          <a href="#ingredients" class="button button-ghost">Explore ingredients</a>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="section split-section section-soft section-observed" id="about">
+      <div class="text-panel reveal reveal-delay-1">
+        <p class="eyebrow">About</p>
+        <h2>Refined beauty, created with intention.</h2>
+        <p>Dr. Estee is a Philippines-rooted luxury beauty brand founded by an esthetician with a modern, expert-led approach to elevated everyday essentials.</p>
+        <p>The brand balances beauty expertise, conscious values, elegant design, and globally curated botanical storytelling — creating products that feel polished, intelligent, and timeless.</p>
+        <div class="stats-row">
+          <div><strong>1</strong><span>Founder</span></div>
+          <div><strong>4</strong><span>Origin regions</span></div>
+          <div><strong>100%</strong><span>Cruelty-free</span></div>
+        </div>
+      </div>
+      <div class="image-panel reveal reveal-delay-2">
+        <img src="assets/lifestyle.jpg" alt="Dr. Estee lifestyle still life" class="hover-lift" />
+        <div class="image-caption">Quiet luxury for modern rituals.</div>
+      </div>
+    </section>
+
+    <section class="section ingredients-section section-observed" id="ingredients">
+      <div class="section-header reveal reveal-delay-1">
+        <p class="eyebrow">Ingredients</p>
+        <h2>Globally curated botanicals.</h2>
+        <p class="section-subtitle">Rooted in the Philippines, curated from select beauty regions including Costa Rica, Japan, and France.</p>
+      </div>
+
+      <div class="feature-banner reveal reveal-delay-1 hover-group">
+        <img src="assets/ingredients.jpg" alt="Dr. Estee ingredient still life" class="hover-lift" />
+        <div class="feature-copy glass-panel">
+          <h3>Ingredient philosophy</h3>
+          <p>Thoughtfully chosen origins, premium textures, and botanical stories that feel sophisticated rather than generic.</p>
+        </div>
+      </div>
+
+      <div class="spotlight-shell reveal reveal-delay-1">
+        <div class="spotlight-copy" id="spotlightCopy">
+          <span class="spotlight-label" id="spotlightLabel">Philippines</span>
+          <h3 id="spotlightTitle">Heritage & nourishment</h3>
+          <p id="spotlightText">Pili oil and elemi oil anchor the brand in founder-rooted tropical luxury.</p>
+        </div>
+      </div>
+
+      <div class="origin-grid">
+        <article class="origin-card reveal reveal-delay-1 is-active" tabindex="0" data-label="Philippines" data-title="Heritage & nourishment" data-text="Pili oil and elemi oil anchor the brand in founder-rooted tropical luxury.">
+          <img src="assets/philippines.jpg" alt="Philippines ingredient inspiration" class="hover-lift" />
+          <div class="origin-copy">
+            <span class="origin-label">Philippines</span>
+            <h3>Heritage & nourishment</h3>
+            <p>Pili oil and elemi oil anchor the brand in founder-rooted tropical luxury.</p>
+          </div>
+        </article>
+
+        <article class="origin-card reveal reveal-delay-2" tabindex="0" data-label="Costa Rica" data-title="Tropical vitality" data-text="Green coffee, papaya, pineapple, aloe, and botanical freshness inspired by rainforest abundance.">
+          <img src="assets/costarica.jpg" alt="Costa Rica ingredient inspiration" class="hover-lift" />
+          <div class="origin-copy">
+            <span class="origin-label">Costa Rica</span>
+            <h3>Tropical vitality</h3>
+            <p>Green coffee, papaya, pineapple, aloe, and botanical freshness inspired by rainforest abundance.</p>
+          </div>
+        </article>
+
+        <article class="origin-card reveal reveal-delay-3" tabindex="0" data-label="Japan" data-title="Ritual & refinement" data-text="Rice bran, camellia, and yuzu bring purity, precision, and elegance.">
+          <img src="assets/japan.jpg" alt="Japan ingredient inspiration" class="hover-lift" />
+          <div class="origin-copy">
+            <span class="origin-label">Japan</span>
+            <h3>Ritual & refinement</h3>
+            <p>Rice bran, camellia, and yuzu bring purity, precision, and elegance.</p>
+          </div>
+        </article>
+
+        <article class="origin-card reveal reveal-delay-4" tabindex="0" data-label="France" data-title="Prestige botanicals" data-text="Grape-derived actives and botanical luxury add a refined European cue.">
+          <img src="assets/france.jpg" alt="France ingredient inspiration" class="hover-lift" />
+          <div class="origin-copy">
+            <span class="origin-label">France</span>
+            <h3>Prestige botanicals</h3>
+            <p>Grape-derived actives and botanical luxury add a refined European cue.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section method-section section-soft section-observed" id="method">
+      <div class="split-section method-layout">
+        <div class="method-copy reveal reveal-delay-1">
+          <p class="eyebrow">The Estee Method</p>
+          <h2>Elevated essentials for modern rituals.</h2>
+          <ul class="method-list">
+            <li>The Refining Serum</li>
+            <li>The Glow Face Oil</li>
+            <li>The Perfecting Veil</li>
+            <li>The Recovery Cream</li>
+            <li>The Essential Balm</li>
+            <li>The Soft Focus Tint</li>
+          </ul>
+        </div>
+
+        <div class="method-visual reveal reveal-delay-2 hover-group">
+          <img src="assets/lifestyle.jpg" alt="Dr. Estee product ritual" class="hover-lift" />
+          <div class="method-overlay glass-panel">
+            <p>Everyday beauty, reimagined with intention.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section section-observed" id="products">
+      <div class="section-header reveal reveal-delay-1">
+        <p class="eyebrow">Products</p>
+        <h2>Minimal. Elevated. Sustainable.</h2>
+      </div>
+
+      <div class="products-hero reveal reveal-delay-1 hover-group">
+        <img src="assets/packaging.jpg" alt="Dr. Estee packaging collection" class="hover-lift" />
+        <div class="products-copy glass-panel dark-glass">
+          <h3>Packaging direction</h3>
+          <p>Matte ivory surfaces, gold accents, tactile materials, and a quiet editorial finish.</p>
+        </div>
+      </div>
+
+      <div class="product-notes reveal reveal-delay-2">
+        <div class="note-card hover-card">
+          <h3>Recovery Cream</h3>
+          <p>Nourish. Restore. Renew.</p>
+        </div>
+        <div class="note-card hover-card">
+          <h3>Barrier Cleanse</h3>
+          <p>Gentle purification for modern skin routines.</p>
+        </div>
+        <div class="note-card hover-card">
+          <h3>Refining Serum</h3>
+          <p>Radiance, balance, and elevated texture.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section section-soft section-observed" id="contact">
+      <div class="split-section contact-layout">
+        <div class="contact-copy reveal reveal-delay-1">
+          <p class="eyebrow">Contact</p>
+          <h2>Connect with conscious beauty.</h2>
+          <p>If you’d like to connect about products, brand inquiries, or collaborations, send a message below.</p>
+          <div class="contact-feedback" id="contactFeedback" aria-live="polite"></div>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-2" id="contactForm">
+          <label>
+            <span>Name</span>
+            <input type="text" id="contactName" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" id="contactEmail" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea id="contactMessage" rows="5" placeholder="Tell us about your inquiry" required></textarea>
+          </label>
+          <button type="submit" class="button button-solid button-wide">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="brand-mark">DE</span>
+      <span class="brand-wordmark">DR. ESTEE</span>
+    </div>
+    <p class="footer-tagline">Expertly Made. Beautifully Conscious.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

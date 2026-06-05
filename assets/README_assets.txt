@@ -1,0 +1,1 @@
+Paste your image files here using the exact filenames listed in the project README.
